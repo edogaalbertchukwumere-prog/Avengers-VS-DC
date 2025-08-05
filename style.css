@@ -1,0 +1,58 @@
+body{
+     background-color: lightblue;
+
+}
+.sideBar_Nav{
+    height: 100%;
+    width: 0;
+    background-color: rgb(236, 130, 130);
+    position: fixed;
+    left: 0;
+    display: flex;
+    overflow-x: hidden;
+    visibility: hidden;
+    flex-direction: column;
+    gap: 18px;
+    padding: 24px 16px;
+    top: 0;
+    z-index: 1;
+}
+.sideBar_Nav a{
+    text-decoration: none;
+    color: azure;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.sideBar_Nav a:hover{
+    color: aquamarine;
+}
+
+.close_btn{
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.menuIcon{
+    height: 50px;
+    width: 50px;
+}
+#main{  
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.nav_bar{
+    display: flex;
+}
+.nav_item{
+    display: flex;
+}
+.nav_bar li{
+    list-style: none;
+    display: flex;
+}

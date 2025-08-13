@@ -2,6 +2,91 @@
 <html>
 <title>Avenger VS DC</title>
 <link rel="stylesheet" href="style.css">
+<style>
+  body{
+    font-size: 20px;
+  }
+</style>
+<body>
+  <header>
+    <nav class="nav_bar">
+      <ul>
+        <li>
+          <a  class="nav_item;">Home</a>
+        </li>
+        <li>
+          <a  class="nav_item">Comics</a>
+        </li>
+        <li>
+          <input type="search" name="searchBar" id="searchBar" placeholder="Search">
+        </li>
+      </ul>
+    </nav>
+    <div class="sideBar_Nav" id="side_bar">
+      <a href="javascript: void (0)" class="close_btn" onclick="close_nav()">&times;</a>
+      <a href="#">Home</a>
+      <a href="#">Heroes</a>
+      <a href="secpage.html">Comparison</a>
+      <a href="#">Draw Your own Superhero</a>
+    </div>
+    <span class="menuIcon" onclick="open_nav()"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKMAAACUCAMAAADIzWmnAAAAQlBMVEXz9fQzMzP2+PfNz84rKytWVlaWlpYoKCgUFhUUExQAAADu8O/r7ewuLi7o6ehNTk0cGxvW19Z6enqtrK2wsrGAgoEJQi2nAAAAvUlEQVR4nO3ZiQnDMAwF0MS90hzNvf+qbXeQIIb3BjAfGRvLahoAAAAAAAAAIEGJkRpxvEUYE0OWfXlHWPbEkN3URpi6tITl04dEbNv+k1bIMi/3CMuct9dl3R4RtjXz0MSsnXv5AAAECGq5Ut89w/GMcAyJb9zzFePMaxWGsH5mqCFjXiGvv9e/Ql7/zFRx9wAARKjgr7mGP/sKZh9VzJAqmMX9Z5pdhNSZZthsOLOh0XIBAAAAAAAAwIV9AQqKGfz3An9AAAAAAElFTkSuQmCC" alt="menu" height="30" width="30"></span>
+  </header>
+    <div id="main">
+      <div style="border: 1px solid; padding:0;">
+    <h1 style="display: flex; justify-content: center;">
+      <span>
+        Avengers VS DC
+      </span>
+    </h1>
+    <h2>
+      Discover the amazing powers of Superheroes | <span style="color:red" ,>Avengers</span> and<span
+        style="color: blue" ,> DC</span>
+    </h2>
+  </div>
+  <p style="font-weight: bold; font-size: 24px; ">Featuring fantastic heroes which includes:
+    Ironman,Superman,Batman,Spiderman,Flash and Thor </p>
+  <div style="display: flex;">
+    <img src="https://upload.wikimedia.org/wikipedia/en/4/47/Iron_Man_%28circa_2018%29.png" alt="ironMan">
+    <p style>Iron man the greatest and smartest guy i think his the best among heroes dont you agree with me write in the
+      comments you know you need to like fisrt below
+    <p>
+  </div>
+
+  <div style="display: flex; flex-direction: row;">
+    <p>super man strong and weak i hate him i know it sounds dumb but i do</p>
+    <img src="https://www.wallpaperflare.com/static/633/1001/211/superman-dc-comics-dc-wallpaper.jpg" width=250,
+      height=400/>
+  </div>
+
+  <div style="display: flex; flex-direction: column; ">
+    <p>The amazing spiderman has super senses called "Spider-Sense", which makes him detect dangerous accidents within
+      milli-seconds, he is the neighborhood bestfriend</p>
+    <img
+      src=""
+      width=250, height=400/>
+  </div>
+  </div>
+
+  <script>
+    function open_nav() {
+      document.getElementById("side_bar").style.width = "150px";
+      document.getElementById("side_bar").style.visibility = "visible";
+      document.getElementById("main").style.marginLeft = "190px";
+    }
+
+    function close_nav() {
+  document.getElementById("side_bar").style.width = "0";
+  document.getElementById("side_bar").style.visibility = "hidden";
+  document.getElementById("main").style.marginLeft = "0px";
+
+} 
+  </script>
+</body>
+
+</html><!DOCTYPE html>
+<html>
+<title>Avenger VS DC</title>
+<link rel="stylesheet" href="style.css">
 
 <body>
   <header>
@@ -80,3 +165,4 @@
 </body>
 
 </html>
+

@@ -6,6 +6,35 @@
            </title>
         </head>
          <body>
+    <div class="sideBar_Nav" id="side_bar">
+    <header>
+         <div class="sideBar_Nav" id="side_bar">
+      <a href="javascript: void (0)" class="close_btn" onclick="close_nav()">&times;</a>
+      <a href="#">Home</a>
+      <a href="#">Heroes</a>
+      <a href="secpage.html">Comparison</a>
+      <a href="#">Draw Your own Superhero</a>
+    </div>
+    <span class="menuIcon" onclick="open_nav()"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKMAAACUCAMAAADIzWmnAAAAQlBMVEXz9fQzMzP2+PfNz84rKytWVlaWlpYoKCgUFhUUExQAAADu8O/r7ewuLi7o6ehNTk0cGxvW19Z6enqtrK2wsrGAgoEJQi2nAAAAvUlEQVR4nO3ZiQnDMAwF0MS90hzNvf+qbXeQIIb3BjAfGRvLahoAAAAAAAAAIEGJkRpxvEUYE0OWfXlHWPbEkN3URpi6tITl04dEbNv+k1bIMi/3CMuct9dl3R4RtjXz0MSsnXv5AAAECGq5Ut89w/GMcAyJb9zzFePMaxWGsH5mqCFjXiGvv9e/Ql7/zFRx9wAARKjgr7mGP/sKZh9VzJAqmMX9Z5pdhNSZZthsOLOh0XIBAAAAAAAAwIV9AQqKGfz3An9AAAAAAElFTkSuQmCC" alt="menu" height="30" width="30"></span>
+  </header>
+    <div id="main">
+    <script>
+       function open_nav() {
+      document.getElementById("side_bar").style.width = "150px";
+      document.getElementById("side_bar").style.visibility = "visible";
+      document.getElementById("main").style.marginLeft = "190px";
+    }
+
+    function close_nav() {
+  document.getElementById("side_bar").style.width = "0";
+  document.getElementById("side_bar").style.visibility = "hidden";
+  document.getElementById("main").style.marginLeft = "0px";
+}
+  </script>
+            
+
+        
     
+    </div>
          </body>
     </html>
